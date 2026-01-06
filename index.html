@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Greetings</title>
+  </head>
+  <body>
+    <script>
+      const time = new Date();
+      if (time.getHours() < 12) {
+        document.write("<h1>Good Morning</h1>");
+
+        alert("GoodMorning");
+      } else if (time.getHours() < 16) {
+        alert("Good AfterNoon");
+        document.write("<h1>Good AfterNoon</h1>");
+      } else {
+        alert("Good Evening");
+        document.write("<h1>Good Evening</h1>");
+      }
+    </script>
+  </body>
+</html>
